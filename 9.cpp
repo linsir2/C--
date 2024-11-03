@@ -17,7 +17,7 @@ int main()
 	int max=v[0],min=v[0];
 	for (int num:v)
 	{
-		if(max<num){max=num;}
+		if(max<num){max=num;}                       //so significant:找到最大值与最小值！！！
 		if(min>num){min=num;}
 	}
 	std::cout<<"数组内最大值为："<<max<<std::endl;
